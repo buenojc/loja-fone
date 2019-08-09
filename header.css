@@ -1,5 +1,7 @@
 header {
   background-color: #e24647;
+  display: flex;
+  justify-content: space-around;
 }
 
 h1 {
@@ -13,4 +15,5 @@ a {
   font-size: 21px;
   text-decoration: none;
   font-family: "Roboto", sans-serif;
+  padding: 0 10px;
 }
