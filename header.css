@@ -5,10 +5,12 @@ header {
 h1 {
   color: #fff;
   font-size: 40px;
+  font-family: "Open Sans", sans-serif;
 }
 
 a {
   color: #fff;
   font-size: 21px;
   text-decoration: none;
+  font-family: "Roboto", sans-serif;
 }
