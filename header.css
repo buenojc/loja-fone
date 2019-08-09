@@ -4,9 +4,11 @@ header {
 
 h1 {
   color: #fff;
+  font-size: 40px;
 }
 
 a {
   color: #fff;
+  font-size: 21px;
   text-decoration: none;
 }
