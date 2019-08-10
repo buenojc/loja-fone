@@ -1,4 +1,6 @@
-# HTML 5
+# HTML5 e CSS
+
+## 002
 
 É uma linguagem de marcação que tem as seguintes responsabilidades:
 
@@ -58,3 +60,17 @@ Com base nesse estilo, quando visto em um celular com uma viewport de 300px, o b
 - Para projetos pequenos usar o do `Erick Meyer`. [Aqui!](https://meyerweb.com/eric/tools/css/reset/)
 
 - Para projetos grandes usar o `Normalize`. [Aqui](https://necolas.github.io/normalize.css/)
+
+## 003
+
+### Float
+
+```
+float: left | right;
+```
+
+- Float muda o contexto da página, ou seja, ele para de estar na mesma "camada" para ir para uma "camada" a frente.
+
+- A propriedade `float` não esconde conteúdo. O conteúdo que ficaria escondido com um elemento com a propriedade a sua frente se adapta para ser mostrado ao lado deste elemento.
+
+- A largura/altura de um elemento com `float`, por padrão, é o conteúdo dele.
