@@ -1,19 +1,25 @@
 header {
   background-color: #e24647;
-  display: flex;
-  justify-content: space-around;
+  overflow: hidden;
+}
+
+h1,
+a {
+  color: #fff;
 }
 
 h1 {
-  color: #fff;
   font-size: 40px;
-  font-family: "Open Sans", sans-serif;
+  font-family: Arial, "Roboto", sans-serif;
+  float: left;
+}
+
+nav {
+  font-size: 21px;
+  font-family: "Roboto", sans-serif;
+  float: right;
 }
 
 a {
-  color: #fff;
-  font-size: 21px;
   text-decoration: none;
-  font-family: "Roboto", sans-serif;
-  padding: 0 10px;
 }
