@@ -74,3 +74,23 @@ float: left | right;
 - A propriedade `float` não esconde conteúdo. O conteúdo que ficaria escondido com um elemento com a propriedade a sua frente se adapta para ser mostrado ao lado deste elemento.
 
 - A largura/altura de um elemento com `float`, por padrão, é o conteúdo dele.
+
+## 004
+
+#### Display
+
+#### Inline
+
+- Um elemento com o `display: inline` não aceita width nem height e deixa elementos um ao lado do outro. Algumas tag vem com essa configuração por padrão, como por exemplo a tag `a`.
+
+#### Block
+
+- Ele deixa os blocos um embaixo do outro, ao contrário do `inline` e deixa aplicar width e height.
+
+#### Inline-block
+
+- elemento que fica com todas as propriedades do block, porém deixando elementos um do lado do outro (inline).
+
+### Line-height
+
+- Pode ser usado para alinhar verticalmente um texto, quando o elemento só tem uma linha deixando o `line-height` com o mesmo valor que o `height` do elemento.
