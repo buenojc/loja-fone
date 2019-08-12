@@ -77,7 +77,7 @@ float: left | right;
 
 ## 004
 
-#### Display
+### Display
 
 #### Inline
 
@@ -91,6 +91,11 @@ float: left | right;
 
 - elemento que fica com todas as propriedades do block, porém deixando elementos um do lado do outro (inline).
 
-### Line-height
+#### Line-height
 
 - Pode ser usado para alinhar verticalmente um texto, quando o elemento só tem uma linha deixando o `line-height` com o mesmo valor que o `height` do elemento.
+
+
+### Div
+
+- Não há valor semântico
