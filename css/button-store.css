@@ -9,19 +9,15 @@
   font-family: "Roboto", sans-serif;
   line-height: 60px;
   text-decoration: none;
+  box-sizing: border-box;
+  border:none;
+  padding: 0;
+  cursor: pointer;
 }
 
-.button-store-second{
+.button-store.-second{
   width: 218px;
-  height: 60px;
   background-color: transparent;
-  display: inline-block;
   border: 2px solid #fff;
-  font-family: "Roboto", sans-serif;
-  font-size: 20px;
-  text-decoration: none;
-  text-align: center;
-  color: #ffffff;
-  box-sizing: border-box;
   line-height: 56px;
 }
