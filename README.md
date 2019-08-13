@@ -116,3 +116,8 @@ box-sizing: border-box;
 O `width` interno do elemento é de 156px. 
 
 O cálculo fica: 200px - 2px - 2px (2px de cada borda);
+
+
+- Por padrão é usado a tag `button` em itens que serão aplicados scripts javascript
+
+- Não mexer nos arquivos de reset. Pensar sempre no dev que pode mexer no seu código depois...mexer no reset pode trazer efeitos colaterais inesperados para outros devs.
