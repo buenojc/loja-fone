@@ -98,4 +98,21 @@ float: left | right;
 
 ### Div
 
-- Não há valor semântico
+- Não há valor semântico.
+
+## 005
+
+- Call to Action (CTA) -  É o principal botão ta página.
+
+- `vertical-align` funciona quando dois elementos `inline-block` estão na mesma linha. Por padrão eles são alinhados pela base da linha de texto (baseline).
+
+- `box-sizing:border-box` faz com que o `width` setado para o elemento seja o mesmo indepentente se há borda. Havendo borda, o `width` interno é subtraído do valor da borda.
+
+```
+width: 200px;
+border: 2px solid black;
+box-sizing: border-box;
+```
+O `width` interno do elemento é de 156px. 
+
+O cálculo fica: 200px - 2px - 2px (2px de cada borda);
