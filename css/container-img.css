@@ -1,6 +1,6 @@
 .image-container{
     float: left;
-    width: 45%;
+    width: 48%;
     margin-top:100px;
     background-color: #fff;
     border-top-right-radius: 150px;
@@ -10,4 +10,5 @@
 .product-image{
     width: 550px;
     height: 550px;
+    margin-left: 10%;
 }
