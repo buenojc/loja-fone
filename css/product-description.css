@@ -1,4 +1,4 @@
-.container-product{
+.product-description{
     float: right;
     width: 45%;
     color: #fff;
@@ -7,24 +7,24 @@
 
 }
 
-.title-product{
+.product-description > .title{
     font-size:25px;
     margin-bottom: 100px;
 }
 
-.rate, .shipping, .price{
+.product-description > .rate, .product-description > .shipping, .product-description > .price{
     font-size: 20px;
     text-transform: uppercase;
     margin-bottom: 20px;
 }
 
-.description{
+.product-description > .summary{
     font-size: 18px;
     line-height: 30px;
     margin: 73px 0 40px;
 }
 
-.action.-description{
+.product-description .more{
     color:#fff;
     font-size: 18px;
 }
