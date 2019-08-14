@@ -1,0 +1,34 @@
+.container-product{
+    float: right;
+    width: 50%;
+    color: #fff;
+    margin-top: 150px;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.title-product{
+    font-size:25px;
+    margin-bottom: 100px;
+}
+
+.rate, .shipping, .price{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.description{
+    font-size: 18px;
+    line-height: 30px;
+    margin: 73px 0 20px;
+}
+
+.action.-description{
+    color:#fff;
+    font-size: 18px;
+}
+
+.container-button.-first{
+    margin-top:100px;
+}
