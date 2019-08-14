@@ -21,7 +21,7 @@
 .description{
     font-size: 18px;
     line-height: 30px;
-    margin: 73px 0 20px;
+    margin: 73px 0 40px;
 }
 
 .action.-description{
@@ -29,6 +29,11 @@
     font-size: 18px;
 }
 
-.container-button.-first{
+.container-button{
+    display: inline-block;
     margin-top:100px;
+}
+
+.container-button.-last{
+    margin-left: 40px;
 }
