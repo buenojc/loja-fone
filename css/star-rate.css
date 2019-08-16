@@ -1,0 +1,14 @@
+.star-rate > .star{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin: 0 10px 25px 0;
+    background-image: url(../img/star-empty.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor:pointer;
+}
+
+.star-rate > .star.-marked{
+    background-image: url(../img/star-full.png);
+}
