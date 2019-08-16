@@ -1,10 +1,9 @@
 .product-description{
-    float: right;
-    width: 45%;
+    display: inline-block;
+    width: 553px;
     color: #fff;
-    margin-top: 150px;
     font-family: "Roboto", sans-serif;
-
+    vertical-align: middle;
 }
 
 .product-description > .title{
@@ -12,28 +11,34 @@
     margin-bottom: 100px;
 }
 
-.product-description > .rate, .product-description > .shipping, .product-description > .price{
+.product-description > .item{
     font-size: 20px;
+    margin-bottom: 28px;
+}
+
+.product-description > .item.-info{
+    width: 200px;
+    text-align: right;
+}
+
+.product-description .contrast{
     text-transform: uppercase;
-    margin-bottom: 20px;
+    float:left;
 }
 
-.product-description > .summary{
+.product-description .item.-last{
+    margin-bottom: 73px;
+}
+
+.product-description > .text{
     font-size: 18px;
-    line-height: 30px;
-    margin: 73px 0 40px;
+    line-height: 30px;  
+    margin-bottom: 35px;
 }
 
-.product-description .more{
-    color:#fff;
+
+.product-description .action{
+    color: inherit;
     font-size: 18px;
-}
-
-.container-button{
-    display: inline-block;
-    margin-top:100px;
-}
-
-.container-button.-last{
-    margin-left: 40px;
+    text-decoration: none;
 }

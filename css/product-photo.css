@@ -1,14 +1,10 @@
-.image-container{
-    float: left;
-    width: 48%;
-    margin-top:100px;
+.product-photo{
+    display:inline-block;
     background-color: #fff;
     border-top-right-radius: 150px;
     border-bottom-right-radius: 150px;
-}
-
-.product-image{
     width: 550px;
     height: 550px;
-    margin-left: 10%;
+    vertical-align: middle;
+    margin-right: 78px;
 }

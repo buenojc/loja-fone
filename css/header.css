@@ -2,6 +2,7 @@
   overflow: hidden;
   color: #ffffff;
   padding-left: 60px;
+  margin-bottom: 138px;
 }
 
 
@@ -9,6 +10,7 @@
   font-size: 40px;
   font-family: Arial, "Roboto", sans-serif;
   float: left;
+  text-transform: uppercase;
 }
 
 .header-store > .navigation {
