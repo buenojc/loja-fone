@@ -1,44 +1,66 @@
-.product-description{
-    display: inline-block;
-    width: 553px;
-    color: #fff;
-    font-family: "Roboto", sans-serif;
-    vertical-align: middle;
+.product-description {
+  /* display: inline-block; */
+  /* width: 553px; */
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  /* vertical-align: middle; */
 }
 
-.product-description > .title{
-    font-size:25px;
-    margin-bottom: 50px;
+.product-description > .title {
+  font-size: 25px;
+  margin-bottom: 50px;
 }
 
-.product-description > .item{
-    font-size: 20px;
-    margin-bottom: 28px;
+.product-description .star {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin: 0 10px 10px 0;
+  background-image: url(../img/star-empty.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
 }
 
-.product-description > .item.-info{
-    width: 200px;
-    text-align: right;
+.product-description .star.-marked {
+  background-image: url(../img/star-full.png);
 }
 
-.product-description .contrast{
-    text-transform: uppercase;
-    float:left;
+.product-description > .stars + .item {
+  margin-left: 7px;
 }
 
-.product-description .item.-last{
-    margin-bottom: 73px;
+.product-description > .item {
+  font-size: 20px;
+  margin-bottom: 28px;
 }
 
-.product-description > .text{
-    font-size: 18px;
-    line-height: 30px;  
-    margin-bottom: 35px;
+.product-description > .item.-info {
+  width: 200px;
+  text-align: right;
 }
 
+.product-description .contrast {
+  text-transform: uppercase;
+  float: left;
+}
 
-.product-description .action{
-    color: inherit;
-    font-size: 18px;
-    text-decoration: none;
+.product-description .item.-last {
+  margin-bottom: 73px;
+}
+
+.product-description > .text {
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 35px;
+}
+
+.product-description > .text.-more {
+  margin-bottom: 0;
+}
+
+.product-description .action {
+  color: inherit;
+  font-size: 18px;
+  text-decoration: none;
 }

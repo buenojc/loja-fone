@@ -1,0 +1,12 @@
+.wrapper-product {
+  display: inline-block;
+  width: 553px;
+  vertical-align: middle;
+  position: relative;
+}
+
+.wrapper-product > .buttons {
+  position: absolute;
+  bottom: 0;
+  transform: translateY(calc(100% + 98px));
+}

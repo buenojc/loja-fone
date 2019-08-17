@@ -5,12 +5,28 @@
   margin-bottom: 138px;
 }
 
-
-.header-store >.title {
+.header-store > .title {
   font-size: 40px;
   font-family: Arial, "Roboto", sans-serif;
   float: left;
   text-transform: uppercase;
+}
+
+.header-store .search {
+  width: 358px;
+  line-height: 24px;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  font-family: inherit;
+  color: inherit;
+  padding: 7px;
+  margin-right: 65px;
+  border-bottom: 1px solid #fff;
+}
+
+.header-store .search::placeholder {
+  color: inherit;
 }
 
 .header-store > .navigation {

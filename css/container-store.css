@@ -1,11 +1,11 @@
-.container-store{
-    background-color: #e24647;
-    padding: 55px 60px 65px 0;
-    width: 94%;
-    margin:50px auto;
-    overflow: hidden;
-    /* top: 50%; */
-    /* left: 50%; */
-    /* position: absolute; */
-    /* transform: translateX(-50%) translateY(-50%); */
+.container-store {
+  background-color: #e24647;
+  padding: 55px 60px 196px 0;
+  width: 94%;
+  margin: 50px auto;
+  overflow: hidden;
+  /* top: 50%; */
+  /* left: 50%; */
+  /* position: absolute; */
+  /* transform: translateX(-50%) translateY(-50%); */
 }
