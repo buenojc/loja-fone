@@ -10,3 +10,13 @@
   bottom: 0;
   transform: translateY(calc(100% + 98px));
 }
+
+.wrapper-product > .heart {
+  width: 33px;
+  height: 29px;
+  position: absolute;
+  background-image: url(../img/heart.png);
+  background-repeat: no-repeat;
+  transform: translateX(calc(-100% - 47px)) translateY(9px);
+  cursor: pointer;
+}
