@@ -40,6 +40,22 @@
   text-decoration: none;
   margin-right: 60px;
   color: inherit;
+  position: relative;
+  padding: 0 3px;
+}
+
+.header-store .action:after {
+  content: "";
+  display: none;
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+  position: absolute;
+  right: 0;
+}
+
+.header-store .action:hover:after {
+  display: block;
 }
 
 .header-store .action.-last {
