@@ -19,4 +19,9 @@
   background-repeat: no-repeat;
   transform: translateX(calc(-100% - 47px)) translateY(9px);
   cursor: pointer;
+  transition: all 200ms linear;
+}
+
+.wrapper-product > .heart:hover {
+  transform: translateX(calc(-100% - 47px)) translateY(9px) scale(1.2);
 }

@@ -20,6 +20,11 @@
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
+  transition: all 200ms linear;
+}
+
+.product-description .star:hover {
+  transform: scale(1.3);
 }
 
 .product-description .star.-marked {
