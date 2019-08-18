@@ -46,16 +46,17 @@
 
 .header-store .action:after {
   content: "";
-  display: none;
-  width: 100%;
+  display: block;
+  width: 0;
   height: 1px;
   background-color: #fff;
   position: absolute;
-  right: 0;
+  left: 0;
+  transition: all 200ms linear;
 }
 
 .header-store .action:hover:after {
-  display: block;
+  width: 100%;
 }
 
 .header-store .action.-last {
