@@ -16,20 +16,15 @@
   width: 25px;
   height: 25px;
   margin: 0 10px 10px 0;
-  background-image: url(../img/star-empty.png);
-  background-repeat: no-repeat;
-  background-position: center;
   cursor: pointer;
-  transition: all 200ms linear;
+  /* background-image: url(../img/star-empty.png); */
+  /* background-repeat: no-repeat; */
+  /* background-position: center; */
 }
 
-.product-description .star:hover {
-  transform: scale(1.3);
-}
-
-.product-description .star.-marked {
+/* .product-description .icon.-star.-marked {
   background-image: url(../img/star-full.png);
-}
+} */
 
 .product-description > .stars + .item {
   margin-left: 7px;
