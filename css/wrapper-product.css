@@ -11,20 +11,41 @@
   transform: translateY(calc(100% + 98px));
 }
 
-.wrapper-product > .heart {
-  width: 33px;
-  height: 29px;
-  position: absolute;
-  transform: translateX(calc(-100% - 47px)) translateY(9px);
-  cursor: pointer;
-  /* background-image: url(../img/heart.png); */
-  /* background-repeat: no-repeat; */
+@media (max-width: 1040px){
+  .wrapper-product{
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+.wrapper-product > .buttons {
+  position: static;
+  margin-left: auto;
+  margin-right: auto;
+  transform: none;
+  width: 100%;
+  text-align: center;
+
+  }
 }
 
-.wrapper-product .icon {
-  transition: all 150ms linear;
+@media (max-width: 520px){
+
+.wrapper-product > .buttons {
+  display: flex;
+  justify-content: space-around;
+
+
+  }
 }
 
-.wrapper-product .icon:hover {
-  transform: scale(1.1);
-}
+@media (max-width: 485px){
+
+  .wrapper-product > .buttons {
+    flex-direction: column;
+    ;
+    align-items: center;
+  
+  
+    }
+  }

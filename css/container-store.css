@@ -4,6 +4,7 @@
   padding: 55px 60px 196px 0;
   width: 90%;
   max-width: 1330px;
+  min-width: 300px;
   overflow: hidden;
   top: 50%;
   left: 50%;
@@ -27,8 +28,9 @@
   }
 }
 
-@media (max-width: 1200px){
+@media (max-width: 1325px){
   .container-store{
-    padding-right: 0px;
+    padding-right: 0;
+    padding-bottom: 50px;
   }
 }

@@ -47,3 +47,21 @@
   background-color: inherit;
   text-decoration: inherit;
 }
+
+@media (max-width: 520px){
+
+  .button-store {
+    margin-right: 0;
+  }
+
+  .button-store.-second{
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 485px){
+
+  .button-store.-second {
+    margin-bottom: 20px;
+    }
+  }
