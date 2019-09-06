@@ -17,7 +17,7 @@
     position: static;
     transform: none;
     width: 100%;
-    max-width: 100%
+    max-width: 100%;
   }
 }
 
@@ -31,6 +31,12 @@
 @media (max-width: 1325px){
   .container-store{
     padding-right: 0;
+    /* padding-bottom: 50px; */
+  }
+}
+
+@media (max-width: 1040px){
+  .container-store{
     padding-bottom: 50px;
   }
 }
