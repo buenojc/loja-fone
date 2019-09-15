@@ -1,3 +1,7 @@
 const $button = window.document.querySelector(".-second");
 
-console.log($button);
+$button.addEventListener("click", handleClick);
+
+function handleClick() {
+  console.log("Botão Funcionando");
+}
