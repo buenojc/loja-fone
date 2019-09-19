@@ -22,6 +22,10 @@
   /* background-repeat: no-repeat; */
 }
 
+.product-description > .heart.-active {
+  background-color: #000000;
+}
+
 .product-description .icon {
   transition: all 150ms linear;
 }
@@ -84,17 +88,12 @@
   text-decoration: none;
 }
 
-
-
-
-
-@media (max-width: 1160px){
-
-  .product-description > .title{
+@media (max-width: 1160px) {
+  .product-description > .title {
     margin-bottom: 30px;
   }
 
-  .product-description > .heart{
+  .product-description > .heart {
     position: static;
     transform: none;
     margin-bottom: 30px;
@@ -102,38 +101,37 @@
     transform: translateY(0); */
   }
 
-  .product-description >.stars{
+  .product-description > .stars {
     /* display: inline-block; */
     float: left;
   }
 
-  .product-description >.stars + .item{
-    padding-top:5px;
+  .product-description > .stars + .item {
+    padding-top: 5px;
   }
 
   /* .product-description > .stars + .item {
     display: inline-block;
   } */
-
 }
 
-@media (max-width: 1040px){
-  .product-description{
+@media (max-width: 1040px) {
+  .product-description {
     margin: 0 auto;
     text-align: center;
     width: 80%;
     min-width: 643px;
   }
 
-  .product-description > .title{
+  .product-description > .title {
     font-size: 30px;
   }
 
-  .product-description > .heart{
-   display: none;
+  .product-description > .heart {
+    display: none;
   }
 
-  .product-description > .stars{
+  .product-description > .stars {
     float: none;
   }
 
@@ -142,31 +140,29 @@
     padding: 0;
   }
 
-  .product-description > .item.-info{
+  .product-description > .item.-info {
     margin-left: auto;
     margin-right: auto;
-
   }
 
-  .product-description > .text{
+  .product-description > .text {
     text-align: justify;
   }
 
-  .product-description > .text.-more{
-    margin-bottom: 98px;    
+  .product-description > .text.-more {
+    margin-bottom: 98px;
   }
-
 }
 
-@media (max-width: 730px){
-  .product-description{
+@media (max-width: 730px) {
+  .product-description {
     width: 100%;
     min-width: auto;
   }
 }
 
-@media (max-width: 480px){
-  .product-description > .text.-more{
+@media (max-width: 480px) {
+  .product-description > .text.-more {
     margin-bottom: 40px;
   }
 }
