@@ -1,8 +1,2 @@
-  ✔ Soma dos itens do carrinho @done(19-09-18 22:06)
-  ✔ Adicionar comportamento ao menu do carrinho @done(19-09-18 22:06)
-  ✔ Adicionar comportamento do heart de fundo preto @done(19-09-18 22:33)
-  ✔ Trocar fundo da imagem do heart (DB) @done(19-09-18 22:33)
-  ✔ Deixar a estrela preenchida com o clique (DI) @done(19-09-18 23:11)
-  ✔ Deixar as estrelas anteriores preenchidas quando uma a frente for clicada. @done(19-09-19 22:17)
-
-
+☐ Alterar o esquema de like usando duas imagens diferentes no html
+☐ Alterar os corações para usarem duas imagens no html
