@@ -1,2 +1,5 @@
 ☐ Alterar o esquema de like usando duas imagens diferentes no html
 ☐ Alterar os corações para usarem duas imagens no html
+☐ Usar forEach e função anônima nas estrelas
+☐ Refatorar e deixar o `product-description` mais simples
+☐ Refazer o comportamento de clique das estrelas (Clicar em uma e as anteriores também serem ativadas) - DU
