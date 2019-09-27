@@ -1,16 +1,11 @@
 const $heart = window.document.querySelector(".heart");
-const $stars = document.querySelectorAll(".star");
+const $star = document.querySelector(".star");
 
 function handleClick() {
   $heart.classList.toggle("-active");
 }
 
 $heart.addEventListener("click", handleClick);
-
-for (let i = 0; i < $stars.length; i++) {
-  $stars[i].addEventListener("click", () => {
-    for (let index = 0; index <= i; index++) {
-      $stars[index].classList.toggle("-marked");
-    }
-  });
-}
+$star.addEventListener("click", () => {
+  $star.classList.toggle("-active");
+});
