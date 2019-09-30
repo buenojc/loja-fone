@@ -1,4 +1,4 @@
 ✔ Alterar o esquema de like usando duas imagens diferentes no html @done(19-09-27 18:24)
-☐ Usar forEach e função anônima nas estrelas
-☐ Refatorar e deixar o `product-description` mais simples
+✔ Usar forEach e função anônima nas estrelas @done(19-09-30 13:13)
+✔ Refatorar e deixar o `product-description` mais simples @done(19-09-30 13:13)
 ☐ Refazer o comportamento de clique das estrelas (Clicar em uma e as anteriores também serem ativadas) - DU

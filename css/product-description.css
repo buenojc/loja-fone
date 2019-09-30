@@ -1,9 +1,6 @@
 .product-description {
-  /* display: inline-block; */
-  /* width: 553px; */
   color: #fff;
   font-family: "Roboto", sans-serif;
-  /* vertical-align: middle; */
 }
 
 .product-description > .title {
@@ -18,16 +15,14 @@
   top: 0;
   transform: translateX(calc(-100% - 47px)) translateY(9px);
   cursor: pointer;
-  /* background-image: url(../img/heart.png); */
-  /* background-repeat: no-repeat; */
 }
 
 .product-description > .heart.-active {
-  background-color: #000000;
+  background-color: #252c41;
 }
 
 .product-description .icon {
-  transition: all 150ms linear;
+  transition: all 80ms linear;
 }
 
 .product-description .icon:hover {
@@ -45,14 +40,10 @@
 
 .product-description > .item.-stars .star {
   display: inline-block;
-  transition: all 150ms linear;
   width: 25px;
   height: 25px;
   margin: 0 10px 10px 0;
   cursor: pointer;
-  background-image: url(../img/star-empty.png);
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .product-description .star .icon.-active {
