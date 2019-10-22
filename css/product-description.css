@@ -132,7 +132,8 @@
   }
 
   .product-description > .heart {
-    display: none;
+    position: absolute;
+    transform: translateX(60px);
   }
 
   .product-description > .stars {
@@ -162,6 +163,14 @@
   .product-description {
     width: 100%;
     min-width: auto;
+  }
+}
+
+@media (max-width: 580px) {
+  .product-description .heart {
+    position: static;
+    margin: 0 auto 20px;
+    transform: translateX(0);
   }
 }
 
