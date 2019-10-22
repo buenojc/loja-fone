@@ -1,16 +1,50 @@
 const $heart = window.document.querySelector(".heart");
 const $stars = document.querySelectorAll(".star");
+const lastPosition = $stars.length - 1;
+
+$heart.addEventListener("click", handleClick);
+
+$stars.forEach(function($star, key) {
+  if (key == 0) {
+    $star.addEventListener("click", firstStar);
+  }
+
+  if (key > 0 && key < lastPosition) {
+    $star.addEventListener("click", function() {
+      middleStars(key);
+    });
+  }
+
+  if (key == lastPosition) {
+    $star.addEventListener("click", lastStar);
+  }
+});
 
 function handleClick() {
   this.classList.toggle("-active");
 }
 
-$heart.addEventListener("click", handleClick);
+function firstStar() {
+  $stars.forEach(function($star) {
+    $star.classList.remove("-active");
+  });
 
-$stars.forEach(function($star) {
-  $star.addEventListener("click", handleClick);
-});
+  this.classList.add("-active");
+}
 
-// $star.addEventListener("click", () => {
-//   $star.classList.toggle("-active");
-// });
+function middleStars(key) {
+  $stars.forEach(function($star, index) {
+    $star.classList.remove("-active");
+
+    if (index <= key) {
+      $star.classList.add("-active");
+    }
+  });
+}
+
+function lastStar() {
+  $stars.forEach(function($star) {
+    $star.classList.remove("-active");
+    $star.classList.add("-active");
+  });
+}
